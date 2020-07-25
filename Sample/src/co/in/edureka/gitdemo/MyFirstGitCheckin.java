@@ -6,6 +6,7 @@ public class MyFirstGitCheckin {
 	{
 		System.out.println("Git is very easy");
 		System.out.println("Adding another line");
+		System.out.println("Adding another line")
 		
 	}
 
