@@ -19,3 +19,119 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
 	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
 	... 8 common frames omitted
+2020-07-25 15:17:03,154 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-07-25 17:41:16,597 [Worker-44] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Sample:Sample:0.0.1-SNAPSHOT @ C:\CICDWorkspace\Sample\pom.xml.
+2020-07-25 17:41:31,541 [Worker-44] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sample/src
+2020-07-25 17:41:31,541 [Worker-44] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Sample/src/test/java because it overlaps with /Sample/src
+2020-07-25 17:41:33,189 [Worker-44] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-07-25 17:41:35,396 [Worker-44] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Sample:Sample:0.0.1-SNAPSHOT @ C:\CICDWorkspace\Sample\pom.xml.
+2020-07-25 17:41:36,652 [Worker-44] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sample/src
+2020-07-25 17:41:36,676 [Worker-44] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Sample/src/test/java because it overlaps with /Sample/src
+2020-07-25 17:41:37,140 [Worker-44] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2020-07-25 17:41:37,470 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 17:41:38,006 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CICDWorkspace\Sample\src\main\resources
+2020-07-25 17:41:38,014 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 17:41:38,046 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CICDWorkspace\Sample\src\test\resources
+2020-07-25 17:42:05,538 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-07-25 17:42:23,622 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CICDWorkspace\Sample
+2020-07-25 17:42:23,622 [Worker-42] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B Compile
+2020-07-25 17:44:56,155 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2020-07-25 17:44:56,333 [Worker-43] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CICDWorkspace\Sample
+2020-07-25 17:44:56,333 [Worker-43] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B Compile
+2020-07-25 17:45:21,736 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CICDWorkspace\Sample
+2020-07-25 17:45:21,736 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-07-25 17:45:28,556 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 17:45:29,607 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CICDWorkspace\Sample\src\main\resources
+2020-07-25 17:45:29,610 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 17:45:29,624 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CICDWorkspace\Sample\src\test\resources
+2020-07-25 17:45:36,200 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2020-07-25 17:45:36,319 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CICDWorkspace\Sample
+2020-07-25 17:45:36,319 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B Compile
+2020-07-25 17:46:24,632 [Worker-51] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-07-25 17:46:35,705 [Worker-51] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Sample:Sample:0.0.1-SNAPSHOT @ C:\CICDWorkspace\Sample\pom.xml.
+2020-07-25 17:46:42,604 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sample/src
+2020-07-25 17:46:42,605 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Sample/src/test/java because it overlaps with /Sample/src
+2020-07-25 17:46:42,725 [Worker-51] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 18 sec
+2020-07-25 17:46:43,089 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 17:46:43,200 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CICDWorkspace\Sample\src\main\resources
+2020-07-25 17:46:43,205 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 17:46:43,219 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CICDWorkspace\Sample\src\test\resources
+2020-07-25 17:48:04,101 [Worker-52] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CICDWorkspace\Sample
+2020-07-25 17:48:04,101 [Worker-52] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-07-25 17:49:31,052 [Worker-43] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CICDWorkspace\Sample
+2020-07-25 17:49:31,053 [Worker-43] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2020-07-25 17:49:47,970 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CICDWorkspace\Sample
+2020-07-25 17:49:47,970 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2020-07-25 17:50:16,545 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 17:50:16,639 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CICDWorkspace\Sample\src\main\resources
+2020-07-25 17:50:16,639 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 17:50:16,655 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CICDWorkspace\Sample\src\test\resources
+2020-07-25 18:07:11,161 [Worker-57] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CICDWorkspace\Sample
+2020-07-25 18:07:11,161 [Worker-57] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2020-07-25 19:53:08,420 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-07-25 19:54:22,376 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Sample:Sample:0.0.1-SNAPSHOT @ C:\CICDWorkspace\Sample\pom.xml.
+2020-07-25 19:54:22,377 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Sample:Sample:0.0.1-SNAPSHOT @ C:\CICDWorkspace\Sample\pom.xml.
+2020-07-25 19:54:29,438 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 19:54:29,525 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CICDWorkspace\Sample\src\main\resources
+2020-07-25 19:54:29,528 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 19:54:29,544 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CICDWorkspace\Sample\src\test\resources
+2020-07-25 19:54:31,844 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Sample:Sample:0.0.1-SNAPSHOT @ C:\CICDWorkspace\Sample\pom.xml.
+2020-07-25 19:54:33,366 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 19:54:33,388 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CICDWorkspace\Sample\src\main\resources
+2020-07-25 19:54:33,392 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 19:54:33,410 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CICDWorkspace\Sample\src\test\resources
+2020-07-25 20:41:13,048 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-07-25 22:27:34,708 [Worker-42] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CustomerServices:Demo:0.0.1-SNAPSHOT @ C:\CICDWorkspace\Demo\pom.xml.
+2020-07-25 22:27:46,260 [Worker-42] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Demo/src/main/java
+2020-07-25 22:27:46,264 [Worker-42] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Demo/src/main/resources
+2020-07-25 22:27:46,267 [Worker-42] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Demo/src/test/java
+2020-07-25 22:27:46,267 [Worker-42] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Demo/src/test/resources
+2020-07-25 22:27:49,032 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 22:27:49,141 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-25 22:27:49,146 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 22:27:49,169 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-25 22:49:23,544 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 22:49:24,378 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-25 22:49:24,385 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 22:49:24,427 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-25 22:49:40,758 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 22:49:40,945 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-25 22:49:40,951 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 22:49:41,004 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-25 22:50:10,380 [Worker-50] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2020-07-25 22:50:28,403 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 22:50:28,511 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-25 22:50:28,515 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 22:50:28,554 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-25 22:54:31,278 [Worker-51] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Sample:Sample:0.0.1-SNAPSHOT @ C:\CICDWorkspace\Sample\pom.xml.
+2020-07-25 22:54:32,992 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sample/src
+2020-07-25 22:54:32,994 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Sample/src/test/java because it overlaps with /Sample/src
+2020-07-25 22:54:34,115 [Worker-51] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-07-25 22:54:36,001 [Worker-51] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Sample:Sample:0.0.1-SNAPSHOT @ C:\CICDWorkspace\Sample\pom.xml.
+2020-07-25 22:54:37,265 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sample/src
+2020-07-25 22:54:37,273 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Sample/src/test/java because it overlaps with /Sample/src
+2020-07-25 22:54:38,481 [Worker-51] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2020-07-25 22:54:42,265 [Worker-56] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CustomerServices:Demo:0.0.1-SNAPSHOT @ C:\CICDWorkspace\Demo\pom.xml.
+2020-07-25 22:54:43,853 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 22:54:44,011 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CICDWorkspace\Sample\src\main\resources
+2020-07-25 22:54:44,014 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-07-25 22:54:44,055 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CICDWorkspace\Sample\src\test\resources
