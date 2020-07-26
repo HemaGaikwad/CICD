@@ -2,12 +2,10 @@ package co.in.edureka.gitdemo;
 
 public class MyFirstGitCheckin {
 
-	public static void main(String[] args) 
+	public void multiply(int a , int b)
 	{
-		System.out.println("Git is very easy");
-		System.out.println("Adding another line");
-		System.out.println("Adding another line")
-		
+		int product = a*b;
+		System.out.println(product);
 	}
 
 }
